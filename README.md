@@ -27,11 +27,12 @@
 
 ### Step 3: プロンプト編集
 1. `Show in Finder`でフォルダを開く
-2. `Prompt-template.txt`をエディタで開く
-3. キャラクター設定を編集
-4. [Gemini](https://gemini.google.com/)で「Gemを作成」
-5. プロンプトを貼り付けてテスト
-6. 必要に応じて修正を繰り返す
+2. 直下の`Prompt-template.txt`をコピー
+3. `prompts`フォルダ内に自分のブランチ名を含めた新しいファイル名で保存（例：`prompt-conan-edogawa.txt`、`prompt-yamada-cat.txt`）
+4. 作成したファイルをエディタで開き、キャラクター設定を編集
+5. [Gemini](https://gemini.google.com/)で「Gemを作成」
+6. プロンプトを貼り付けてテスト
+7. 必要に応じて修正を繰り返す
 
 ### Step 4: コミット
 1. GitHub DesktopのChangesタブで変更を確認
